@@ -1,3 +1,6 @@
+<h2 align="left">Hi 👋! My name is Deepak Kumar and I'm a Full Stack Developer, from Bareilly,Uttar Pradesh</h2>
+
+
 <div align="center">
   <img src="https://profile-counter.glitch.me/iQliPsE-22/count.svg?"  />
 </div>
