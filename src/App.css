@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 * {
   margin: 0;
@@ -8,16 +8,17 @@
 }
 
 header {
-  width: 100%;
-  height: 90px;
+  padding: 15px;
+  min-height: fit-content;
   display: flex;
   justify-content: space-between;
-  /* Align logo to the left and items to the right */
+  align-items: center;
+  background-color: aliceblue;
 }
 
 #logo {
   color: #41c1ae;
-  font-size: 40px;
+  font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -25,7 +26,6 @@ header {
 }
 
 .items {
-  margin-top: 10px;
   display: flex;
   justify-content: flex-end;
 }
@@ -35,30 +35,58 @@ header {
   margin-left: 30px;
   color: #000;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   line-height: normal;
   font-weight: 800;
 }
 
 #display {
-  position: absolute;
-  right: 2pc;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#display img {
+  margin-right: 40px;
+  width: 30%;
+  border-radius: 50%;
+  animation: bubble 6s infinite;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+@keyframes bubble {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    transform: scale(1);
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    transform: scale(1.1);
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    transform: scale(1);
+  }
 }
 
 #info {
   position: absolute;
   top: 300px;
-  color: #000;
   font-family: Inter;
   font-size: 25px;
   font-style: normal;
   line-height: normal;
   font-weight: lighter;
+  margin-left: 20px;
 }
 
 #design {
-  color: #000;
   font-family: Itim;
   font-size: 50px;
   font-style: normal;
@@ -75,9 +103,49 @@ header {
   color: #41c1ae;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the text is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typewriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+/* The typewriter cursor animation */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+
 .iframe-container {
   position: relative;
-  top:100vh;
+  top: 100vh;
   overflow: hidden;
   padding-bottom: 56.25%;
   height: 0;

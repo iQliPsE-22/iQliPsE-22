@@ -1,35 +1,44 @@
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import PIC from "./Assets/pic.png";
 import Quiz from "./components/Quiz";
+import Header from "./components/Header";
+
 function App() {
+  const [txtIndex, setTxtIndex] = useState(0);
+  const [txt, setTxt] = useState(["things", "webSites", "webApps","ideas"]);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setTxtIndex((prevIndex) => (prevIndex + 1) % txt.length);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, [txtIndex, txt]);
+
   return (
     <>
       <div className="App">
-        <header>
-          <h1 id="iqlipse">
-            &lt;<span id="logo">iQlipse</span>/&gt;
-          </h1>
-          <div className="items">
-            <p className="item">&lt;Start/&gt;</p>
-            <p className="item">&lt;Work/&gt;</p>
-            <p className="item">&lt;About/&gt;</p>
-            <p className="item">&lt;Contact/&gt;</p>
-          </div>
-        </header>
+        <Header />
         <div id="info">
-          <h1>
-            Hi,My name is <span id="name">Deepak Kumar</span>
-          </h1>
-          <h1>
+          <h2>
+            Hi, My name is <span id="name">Deepak Kumar</span>
+          </h2>
+          <h2>
             I <span id="design">design</span> and{" "}
-            <span id="develop">develop</span> things
-          </h1>
+            <span id="develop">develop</span>{" "}
+            <span id="demo" className="typewriter">
+              {txt[txtIndex]}
+            </span>
+          </h2>
         </div>
         <div id="display">
           <img src={PIC} alt="iQlipse's Pic" />
         </div>
       </div>
-      <Quiz />
+      <div id="work">
+        <Quiz />
+      </div>
     </>
   );
 }
