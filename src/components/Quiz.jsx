@@ -3,13 +3,12 @@ import "../App.css";
 const Quiz = () => {
   return (
     <div>
-      {" "}
       <div className="iframe-container">
         <iframe
           src="https://rizzquiz.vercel.app/"
           title="Embedded Content"
-          frameborder="2"
-          allowfullscreen
+          frameBorder="2"
+          allowFullScreen
         ></iframe>
       </div>
     </div>

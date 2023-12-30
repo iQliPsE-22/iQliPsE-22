@@ -3,10 +3,11 @@ import "./App.css";
 import PIC from "./Assets/pic.png";
 import Quiz from "./components/Quiz";
 import Header from "./components/Header";
+import TimeLine from "./components/TimeLine";
 
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
-  const [txt, setTxt] = useState(["things", "webSites", "webApps","ideas"]);
+  const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -28,7 +29,7 @@ function App() {
             I <span id="design">design</span> and{" "}
             <span id="develop">develop</span>{" "}
             <span id="demo" className="typewriter">
-              {txt[txtIndex]}
+              {txt[txtIndex] + "..."}
             </span>
           </h2>
         </div>
@@ -36,6 +37,13 @@ function App() {
           <img src={PIC} alt="iQlipse's Pic" />
         </div>
       </div>
+
+      {/* timeline */}
+      <div>
+        <TimeLine />
+      </div>
+      
+      {/* work */}
       <div id="work">
         <Quiz />
       </div>
