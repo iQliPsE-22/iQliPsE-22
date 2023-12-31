@@ -75,7 +75,7 @@ a {
 }
 
 .omega {
-  height:auto;
+  height: auto;
   background-color: #bdffbd;
   animation: bubble 6s infinite;
   transition: transform 0.3s ease-in-out;
@@ -180,12 +180,12 @@ a {
 }
 
 .iframe-container iframe {
-  border:2px solid #41c1ae;
+  border: 2px solid #41c1ae;
   position: absolute;
   top: 0;
   left: 0;
-  width:30%;
-  height:90%;
+  width: 30%;
+  height: 90%;
 }
 
 @media screen and (max-width: 920px) {
@@ -219,5 +219,10 @@ a {
 
   .omega {
     margin-right: 0px;
+  }
+
+  .iframe-container iframe {
+    width: 100%;
+    height: 100%;
   }
 }
