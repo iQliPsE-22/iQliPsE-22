@@ -5,8 +5,15 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
-
+body::-webkit-scrollbar{
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #41c1ae;
+  border-radius: 10px;
+}
 header {
   padding: 15px;
   min-height: fit-content;
@@ -39,6 +46,7 @@ a {
   justify-content: flex-end;
 }
 
+
 .item {
   text-align: left;
   margin-left: 30px;
@@ -56,7 +64,8 @@ a {
   align-items: center;
   justify-content: right;
 }
-.omega{
+
+.omega {
   height: fit-content;
   border-radius: 50%;
   background-color: #bdffbd;
@@ -70,7 +79,7 @@ a {
 
 #display img {
   margin-right: 40px;
-  width:50%;
+  width: 50%;
   animation: bubble 6s infinite;
   transition: transform 0.3s ease-in-out;
   margin-top: 30px;
@@ -165,13 +174,12 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width:90%;
+  width: 90%;
   height: 100%;
 }
 
 @media screen and (max-width: 920px) {
-  #info{
-    margin-top:20pc;
+  #info {
+    margin-top: 20pc;
   }
-  
 }

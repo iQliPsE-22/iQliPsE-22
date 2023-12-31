@@ -4,6 +4,7 @@ import PIC from "./Assets/pic.png";
 import Quiz from "./components/Quiz";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
+import Footer from './components/Footer';
 
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
@@ -50,6 +51,7 @@ function App() {
       <div id="work">
         <Quiz />
       </div>
+      <Footer/>
     </>
   );
 }
