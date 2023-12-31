@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import resumePDF from "../Assets/resume.pdf";
+
 const Header = () => {
   const scrollToWork = () => {
     const workElement = document.getElementById("work");
@@ -15,6 +17,13 @@ const Header = () => {
     }
   };
 
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = resumePDF;
+    link.download = "resume.pdf";
+    link.click();
+  };
+
   return (
     <div>
       <header>
@@ -28,6 +37,9 @@ const Header = () => {
           </p>
           <p className="item" onClick={scrollToEducation}>
             &lt;Education/&gt;
+          </p>
+          <p className="item" onClick={downloadResume}>
+            &lt;Resume/&gt;
           </p>
           <p className="item">&lt;Contact/&gt;</p>
         </div>

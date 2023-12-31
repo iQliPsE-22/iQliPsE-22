@@ -34,7 +34,10 @@ function App() {
           </h2>
         </div>
         <div id="display">
-          <img src={PIC} alt="iQlipse's Pic" />
+          <div id = "outer" className = "omega">
+            <img src={PIC} alt="iQlipse's Pic" />
+          </div>
+          <span id = "outer"></span>
         </div>
       </div>
 
@@ -42,7 +45,7 @@ function App() {
       <div>
         <TimeLine />
       </div>
-      
+
       {/* work */}
       <div id="work">
         <Quiz />
