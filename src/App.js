@@ -46,10 +46,59 @@ function App() {
       <div>
         <TimeLine />
       </div>
+      <div className="checkpoints">
+        <h1>
+          <em>Tech Stack</em>
+        </h1>
+        <div id="tech">
+          <section>
+            <h3>Languages</h3>
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Figma</li>
+              <li>Git</li>
+              <li>Npm</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Frameworks</h3>
+            <ul>
+              <li>ReactJs</li>
+              <li>ChartJs</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Libraries</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Material UI</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Learning</h3>
+            <ul>
+              <li>MongoDb</li>
+              <li>Express.Js</li>
+              <li>Node.Js</li>
+              <li>React.Js</li>
+            </ul>
+          </section>
+        </div>
+      </div>
 
       {/* work */}
       <div className="checkpoints">
-        <h1 id = "work">
+        <h1 id="work">
           <em>Work</em>
         </h1>
         <Quiz />

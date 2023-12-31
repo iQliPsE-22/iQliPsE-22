@@ -171,6 +171,57 @@ a {
   }
 }
 
+/* TechStyles.css */
+#tech {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #cecece;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#tech:hover {
+  box-shadow: 0 4px 10px rgba(63, 53, 53, 0.2);
+}
+
+#tech section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+#tech h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+#tech ul {
+  list-style: none;
+  padding: 0;
+}
+
+#tech li {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+#tech li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+#tech p {
+  margin: 5px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
 
 .iframe-container {
   position: relative;
