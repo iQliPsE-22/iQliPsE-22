@@ -4,7 +4,7 @@ import cgc from "../Assets/cgc.jpg";
 import hca from "../Assets/hca.jpg";
 const TimeLine = () => {
   return (
-    <div id="timeline">
+    <div className="checkpoints" id = "timeline">
       <h1>
         <em>Timeline</em>
       </h1>

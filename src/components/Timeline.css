@@ -1,21 +1,21 @@
-#timeline {
+.checkpoints {
     text-align: center;
     height: 100vh;
 }
 
-#timeline img {
+.checkpoints img {
     border-radius: 50%;
     width: 10%;
     z-index: 1;
     filter: drop-shadow(0px 0px 5px #000000);
 }
 
-#timeline h1 {
+.checkpoints h1 {
     background-color: #41c1ae;
     padding: 20px
 }
 
-#timeline h2 {
+.checkpoints h2 {
     z-index: 1;
     background-color: rgb(255, 255, 255);
     padding: 2px;
@@ -73,11 +73,11 @@ hr {
         top: 0;
     }
 
-    #timeline img {
+    .checkpoints img {
         width: 40%;
     }
 
-    #timeline h1 {
+    .checkpoints h1 {
         font-size: 28px;
         padding: 13px;
     }

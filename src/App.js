@@ -4,7 +4,7 @@ import PIC from "./Assets/pic.png";
 import Quiz from "./components/Quiz";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
@@ -35,10 +35,10 @@ function App() {
           </h2>
         </div>
         <div id="display">
-          <div id = "outer" className = "omega">
+          <div id="outer" className="omega">
             <img src={PIC} alt="iQlipse's Pic" />
           </div>
-          <span id = "outer"></span>
+          <span id="outer"></span>
         </div>
       </div>
 
@@ -48,10 +48,13 @@ function App() {
       </div>
 
       {/* work */}
-      <div id="work">
+      <div className="checkpoints">
+        <h1 id = "work">
+          <em>Work</em>
+        </h1>
         <Quiz />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
