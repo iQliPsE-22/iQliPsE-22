@@ -17,7 +17,7 @@
 
 #timeline h2 {
     z-index: 1;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 2px;
     border-radius: 5px;
     font-style: kalam, cursive;
@@ -64,5 +64,21 @@ hr {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    hr {
+        width: 30cm;
+        top: 0;
+    }
+
+    #timeline img {
+        width: 40%;
+    }
+
+    #timeline h1 {
+        font-size: 28px;
+        padding: 13px;
     }
 }

@@ -26,6 +26,9 @@ const Header = () => {
 
   return (
     <div>
+      <h1 id="iqlipse-res">
+        &lt;<span id="logo">iQlipse</span>/&gt;
+      </h1>
       <header>
         <h1 id="iqlipse">
           &lt;<span id="logo">iQlipse</span>/&gt;
@@ -47,6 +50,5 @@ const Header = () => {
     </div>
   );
 };
-
 
 export default Header;
