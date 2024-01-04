@@ -20,8 +20,8 @@ function App() {
 
   return (
     <>
+      <Header />
       <div className="App">
-        <Header />
         <div id="info">
           <h2>
             Hi, My name is <span id="name">Deepak Kumar</span>

@@ -27,9 +27,14 @@ header {
   background-color: aliceblue;
 }
 
+.App {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+}
+
 #iqlipse-res {
   display: none;
-
 }
 
 a {
@@ -38,7 +43,7 @@ a {
 }
 
 .App {
-  height: 100vh;
+  height: 90vh;
 }
 
 #logo {
@@ -68,22 +73,11 @@ a {
 }
 
 #display {
-  height: 70vh;
+  height: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: right;
-}
-
-.omega {
-  height: auto;
-  background-color: #bdffbd;
-  animation: bubble 6s infinite;
-  transition: transform 0.3s ease-in-out;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 80px;
 }
 
 #display img {
@@ -93,6 +87,18 @@ a {
   transition: transform 0.3s ease-in-out;
   margin-top: 30px;
   margin-left: 20px;
+}
+
+.omega {
+  background-color: #bdffbd;
+  animation: bubble 6s infinite;
+  transition: transform 0.3s ease-in-out;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  margin-right: 4%;
 }
 
 @keyframes bubble {
@@ -113,13 +119,18 @@ a {
 }
 
 #info {
-  position: absolute;
-  top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
   font-family: Inter;
   font-size: 25px;
   font-style: normal;
   line-height: normal;
   font-weight: lighter;
+}
+
+#info h2 {
   margin-left: 20px;
 }
 
