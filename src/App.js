@@ -5,7 +5,7 @@ import Quiz from "./components/Quiz";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
 import Footer from "./components/Footer";
-
+import LeetCode from "./components/LeetCode";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
   const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
@@ -22,6 +22,12 @@ function App() {
     <>
       <Header />
       <div className="App">
+        <div id="display">
+          <div id="outer" className="omega">
+            <img src={PIC} alt="iQlipse's Pic" />
+          </div>
+          <span id="outer"></span>
+        </div>
         <div id="info">
           <h2>
             Hi, My name is <span id="name">Deepak Kumar</span>
@@ -33,12 +39,6 @@ function App() {
               {txt[txtIndex] + "..."}
             </span>
           </h2>
-        </div>
-        <div id="display">
-          <div id="outer" className="omega">
-            <img src={PIC} alt="iQlipse's Pic" />
-          </div>
-          <span id="outer"></span>
         </div>
       </div>
 
@@ -101,6 +101,7 @@ function App() {
         <h1 id="work">
           <em>Work</em>
         </h1>
+        <LeetCode />
         <Quiz />
       </div>
       <Footer />

@@ -6,11 +6,15 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  user-select: none;
 }
 
 body::-webkit-scrollbar {
   background-color: black;
+}
+
+::selection {
+  background-color: #93ff93;
+  color: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -30,7 +34,8 @@ header {
 .App {
   background-color: #f7f7f7;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  height: 90vh;
 }
 
 #iqlipse-res {
@@ -40,10 +45,6 @@ header {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.App {
-  height: 90vh;
 }
 
 #logo {
@@ -90,7 +91,7 @@ a {
 }
 
 .omega {
-  background-color: #bdffbd;
+  background-color: #93ff93;
   animation: bubble 6s infinite;
   transition: transform 0.3s ease-in-out;
   padding: 10px;
@@ -251,14 +252,24 @@ a {
 }
 
 @media screen and (max-width: 920px) {
-  #info {
-    text-align: center;
-    font-size: small;
-    margin-top: 12pc;
-  }
-
   header {
     display: none;
+  }
+
+  .App {
+    flex-direction: column;
+  }
+
+  #display {
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    height: 70%;
+  }
+
+  #info {
+    font-size: small;
+    width: 100%;
   }
 
   #iqlipse-res {
@@ -266,10 +277,9 @@ a {
     display: block;
     text-align: center;
     background-color: rgb(247, 247, 247);
-  }
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Adds a shadow effect */
 
-  #display {
-    justify-content: center;
   }
 
   #display img {
@@ -283,8 +293,19 @@ a {
     margin-right: 0px;
   }
 
+  #tech {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px;
+  }
+
+  #tech section {
+    margin-top: 20px;
+  }
+
   .iframe-container iframe {
     width: 100%;
     height: 100%;
   }
+
 }

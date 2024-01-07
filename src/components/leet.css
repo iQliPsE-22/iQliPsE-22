@@ -1,0 +1,19 @@
+#leetcode {
+    color: rgb(255, 161, 22);
+}
+
+#leetcode h2 {
+    color: rgb(255, 161, 22) !important;
+    background-color: rgb(26, 26, 26);
+    border-radius: 0px !important;
+}
+
+#leetcode h2 {
+    /* background-color: rgb(40, 40, 40) !important; */
+    border-radius: 0px !important;
+}
+
+#rank h2{
+
+    color: white !important;
+}
