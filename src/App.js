@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
 import Footer from "./components/Footer";
 import LeetCode from "./components/LeetCode";
+import Bubble from "./components/Bubble";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
   const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Header />
+      <Bubble />
       <div className="App">
         <div id="display">
           <div id="outer" className="omega">

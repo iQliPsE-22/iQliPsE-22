@@ -6,9 +6,16 @@
 .checkpoints img {
     border-radius: 50%;
     width: 10%;
-    z-index: 1;
-    filter: drop-shadow(0px 0px 5px #000000);
+    filter: drop-shadow(50px 0px 5px #000000);
+    transition: all 0.5s ease-in-out;
 }
+
+.checkpoints img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 50px #000000);
+
+}
+
 
 .checkpoints h1 {
     background-color: #41c1ae;
@@ -49,7 +56,6 @@ hr {
 }
 
 #current {
-
     animation: dot 1s infinite;
 }
 

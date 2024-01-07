@@ -3,13 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import TimeLine from "./components/TimeLine";
+// import Bubble from "./components/Bubble";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <TimeLine /> */}
   </React.StrictMode>
 );
 

@@ -32,8 +32,9 @@ header {
 }
 
 .App {
-  background-color: #f7f7f7;
+  background: url("https://yasio.dev/assets/img/bg.87635d9.webp");
   display: flex;
+  color: #fff;
   flex-direction: row-reverse;
   height: 90vh;
 }
@@ -91,7 +92,7 @@ a {
 }
 
 .omega {
-  background-color: #93ff93;
+  background-color: rgba(21, 19, 28, 0.301);
   animation: bubble 6s infinite;
   transition: transform 0.3s ease-in-out;
   padding: 10px;
@@ -100,6 +101,7 @@ a {
   align-items: center;
   overflow-y: hidden;
   margin-right: 4%;
+  backdrop-filter: blur(10px);
 }
 
 @keyframes bubble {
@@ -129,11 +131,35 @@ a {
   font-style: normal;
   line-height: normal;
   font-weight: lighter;
+  will-change: transform, opacity;
 }
 
 #info h2 {
   margin-left: 20px;
+  overflow: hidden;
+  position: relative;
+  animation: fadeIn 1s forwards;
 }
+
+#info h2::selection {
+  background-color: #41c1ae;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    /* Optional: Add a subtle upward movement */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    /* Optional: Return to the original position */
+  }
+}
+
 
 #design {
   font-family: Itim;
