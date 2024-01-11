@@ -14,7 +14,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/iQliPsE-22/iQliPsE-22/main/src/Assets/XjB8.gif"  />
+  <img height="400" src="https://raw.githubusercontent.com/iQliPsE-22/iQliPsE-22/main/src/Assets/XjB8.gif"  />
 </div>
 
 ###
