@@ -58,8 +58,12 @@ function App() {
             <em>Work</em>
           </h1>
           <LeetCode />
-          <Work src={rizzquiz} />
-          <Work src={acasync} />
+          <a href="https://rizzquiz.vercel.app/">
+            <Work src={rizzquiz} />
+          </a>
+          <a href="https://acasync.vercel.app/">
+            <Work src={acasync} />
+          </a>
         </div>
         <Footer />
       </div>

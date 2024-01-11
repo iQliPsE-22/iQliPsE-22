@@ -18,7 +18,7 @@ const Work = (props) => {
   return (
     <div className="work-container">
       <Tilt className="Tilt" options={defaultOptions}>
-        <div className = "work">
+        <div className = "work">"
           <img src={src} alt="work" />
         </div>
       </Tilt>
