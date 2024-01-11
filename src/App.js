@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import PIC from "./Assets/pic.png";
-import Quiz from "./components/Quiz";
+import Work from "./components/Work";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
 import Footer from "./components/Footer";
 import LeetCode from "./components/LeetCode";
 import Bubble from "./components/Bubble";
 import { Tech } from "./components/Tech";
-
+import rizzquiz from "./Assets/rizzquiz.png";
+import acasync from "./Assets/acasync.png";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
   const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
@@ -57,7 +58,8 @@ function App() {
             <em>Work</em>
           </h1>
           <LeetCode />
-          <Quiz />
+          <Work src={rizzquiz} />
+          <Work src={acasync} />
         </div>
         <Footer />
       </div>

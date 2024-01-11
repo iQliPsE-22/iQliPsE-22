@@ -3,15 +3,14 @@
     min-height: 100vh;
 }
 
-.checkpoints img {
+#timeline img {
     border-radius: 50%;
     width: 10%;
-    /* filter: drop-shadow(50px 0px 5px #000000); */
     filter: drop-shadow(0px 0px 50px #000000);
     transition: all 0.5s ease-in-out;
 }
 
-.checkpoints img:hover {
+#timeline img:hover {
     transform: scale(1.1);
     filter: drop-shadow(0px 0px 50px rgb(22, 158, 167));
 
@@ -36,6 +35,7 @@ hr {
     width: 40%;
     transform: rotate(90deg);
     border: 1px solid #000000;
+    z-index: -1;
 }
 
 .dots {
@@ -77,12 +77,12 @@ hr {
 
 @media screen and (max-width: 920px) {
     hr {
-        width: 30cm;
-        top: 0;
+        width: 15cm;
+        top: 200px;
     }
 
-    .checkpoints img {
-        width: 40%;
+    #timeline img {
+        width: 30%;
     }
 
     .checkpoints h1 {

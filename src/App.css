@@ -263,23 +263,6 @@ a {
   font-size: 0.9rem;
 }
 
-
-.iframe-container {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.iframe-container iframe {
-  border: 2px solid #41c1ae;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30%;
-  height: 90%;
-}
-
 .lang {
   display: flex;
   align-items: center;
