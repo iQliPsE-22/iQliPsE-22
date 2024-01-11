@@ -213,10 +213,8 @@ a {
 #tech {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
   background-color: #000000;
   padding: 100px;
-  border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }
@@ -280,7 +278,7 @@ a {
 .lang {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .lang svg {
