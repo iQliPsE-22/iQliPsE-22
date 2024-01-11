@@ -2,14 +2,12 @@ import React from "react";
 import "./Timeline.css";
 import cgc from "../Assets/cgc.jpg";
 import hca from "../Assets/hca.jpg";
-import Bubble from "./Bubble";
 const TimeLine = () => {
   return (
     <div className="checkpoints" id="timeline">
       <h1>
         <em>Timeline</em>
       </h1>
-        <Bubble />
       <div>
         <div className="dots">
           <hr />

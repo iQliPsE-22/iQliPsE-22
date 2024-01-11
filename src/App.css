@@ -214,7 +214,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-  background-color: #cecece;
+  background-color: #000000;
   padding: 100px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -233,7 +233,7 @@ a {
 #tech h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #9b9b9b;
   text-transform: uppercase;
 }
 
@@ -250,7 +250,7 @@ a {
 }
 
 #tech li:hover {
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -276,6 +276,25 @@ a {
   width: 30%;
   height: 90%;
 }
+
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang svg {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.lang img {
+  width: 50px !important;
+  height: 50px;
+  filter: none !important;
+}
+
 
 @media screen and (max-width: 920px) {
   header {
