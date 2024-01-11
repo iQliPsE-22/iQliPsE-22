@@ -2,30 +2,41 @@
     position: absolute;
     width: 40%;
     height: 40%;
-    background-color:rgba(0, 255, 255, 0.591);
+    background-color: rgba(0, 255, 255, 0.591);
     border-radius: 50%;
     opacity: 0.5;
     animation: bubble 2s infinite, move 30s infinite;
     display: block;
-    left: -100vw;
-    top: 0;
+    left: -20%; /* Adjusted left position */
+    top: -20%; /* Adjusted top position */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
-}
-
-@keyframes move {
+  }
+  
+  @keyframes move {
     0% {
-        left: -100vw;
-        top: 0;
+      left: -20%; /* Adjusted left position */
+      top: -20%; /* Adjusted top position */
     }
-
+  
     50% {
-        left: 50%;
-        top: 70%;
+      left: 30%; /* Adjusted left position */
+      top: 50%; /* Adjusted top position */
+      overflow: hidden;
     }
-
+  
     100% {
-        left: 200vw;
-        top: 100vh;
+      left: 120%; /* Adjusted left position */
+      top: 120%; /* Adjusted top position */
     }
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    #bubble {
+      width: 60%;
+      height: 60%;
+      left: -30%; /* Further adjusted left position */
+      top: -30%; /* Further adjusted top position */
+    }
+  }
+  

@@ -161,7 +161,7 @@ export const Tech = () => {
               </span>
             </li>
             <li className="lang">
-              Tailwind{" "}
+              Tailwind
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
