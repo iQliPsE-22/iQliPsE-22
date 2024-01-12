@@ -57,7 +57,7 @@ function App() {
           <h1 id="work">
             <em>Work</em>
           </h1>
-          <LeetCode />
+          {/* <LeetCode /> */}
           <a href="https://rizzquiz.vercel.app/">
             <Work src={rizzquiz} />
           </a>
