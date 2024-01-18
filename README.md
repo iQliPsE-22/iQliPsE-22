@@ -8,12 +8,6 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/iQliPsE-22/count.svg?"  />
-</div>
-
-###
-
-<div align="center">
   <img height="400" src="https://raw.githubusercontent.com/iQliPsE-22/iQliPsE-22/main/src/Assets/XjB8.gif"  />
 </div>
 
