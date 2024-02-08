@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import PIC from "./Assets/pic.png";
+import PIC from "./Assets/pic2.png";
 import Work from "./components/Work";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <Header />
-      <Bubble />
+      <Bubble top="-20%" />
       <div className="App">
         <div id="display">
           <div id="outer" className="omega">
@@ -55,6 +55,8 @@ function App() {
         <Tech />
         <div className="checkpoints">
           <h1 id="work">
+            <Bubble top="200%" />
+
             <em>Work</em>
           </h1>
           {/* <LeetCode /> */}

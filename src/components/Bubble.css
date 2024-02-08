@@ -1,42 +1,41 @@
 #bubble {
-    position: absolute;
-    width: 40%;
-    height: 40%;
-    background-color: rgba(0, 255, 255, 0.591);
-    border-radius: 50%;
-    opacity: 0.5;
-    animation: bubble 2s infinite, move 30s infinite;
-    display: block;
-    left: -20%; /* Adjusted left position */
-    top: -20%; /* Adjusted top position */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 1;
+  width: 12.5%;
+  height: 25%;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: bubble 2s infinite, move 30s infinite;
+  display: block;
+  left: 20%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+@keyframes move {
+  0% {
+    left: -20%;
+    top: 0%;
   }
-  
-  @keyframes move {
-    0% {
-      left: -20%; /* Adjusted left position */
-      top: -20%; /* Adjusted top position */
-    }
-  
-    50% {
-      left: 30%; /* Adjusted left position */
-      top: 50%; /* Adjusted top position */
-      overflow: hidden;
-    }
-  
-    100% {
-      left: 120%; /* Adjusted left position */
-      top: 120%; /* Adjusted top position */
-    }
+
+  50% {
+    left: 30%;
+    top: 70%;
   }
-  
-  @media screen and (max-width: 768px) {
-    #bubble {
-      width: 60%;
-      height: 60%;
-      left: -30%; /* Further adjusted left position */
-      top: -30%; /* Further adjusted top position */
-    }
+
+  100% {
+    left: 120%;
+    top: 120%;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  #bubble {
+    width: 60%;
+    height: 60%;
+    left: -30%;
+    /* Further adjusted left position */
+    top: -30%;
+    /* Further adjusted top position */
+  }
+}

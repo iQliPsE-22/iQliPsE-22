@@ -1,6 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import "./work.css";
+import Bubble from './Bubble';
 const defaultOptions = {
   reverse: true, // reverse the tilt direction
   max: 35, // max tilt rotation (degrees)
