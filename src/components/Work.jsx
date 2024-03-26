@@ -1,7 +1,6 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import "./work.css";
-import Bubble from './Bubble';
 const defaultOptions = {
   reverse: true, // reverse the tilt direction
   max: 35, // max tilt rotation (degrees)
@@ -16,11 +15,20 @@ const defaultOptions = {
 
 const Work = (props) => {
   const { src } = props;
+  const isImage = /\.(jpeg|jpg|gif|png)$/i.test(src);
+  const isVideo = /\.(mp4|mov|avi|mkv)$/i.test(src);
+
   return (
     <div className="work-container">
       <Tilt className="Tilt" options={defaultOptions}>
         <div className="work">
-          <img src={src} alt="work" />
+          {isImage ? (
+            <img src={src} alt="work" />
+          ) : isVideo ? (
+            <video src={src} onMouseOver={e => e.target.play()} onMouseOut={e => e.target.pause()} />
+          ) : (
+            <p>Unsupported file format</p>
+          )}
         </div>
       </Tilt>
     </div>

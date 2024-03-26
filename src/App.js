@@ -5,11 +5,11 @@ import Work from "./components/Work";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
 import Footer from "./components/Footer";
-import LeetCode from "./components/LeetCode";
 import Bubble from "./components/Bubble";
 import { Tech } from "./components/Tech";
 import rizzquiz from "./Assets/rizzquiz.png";
 import acasync from "./Assets/acasync.png";
+import whisper from "./Assets/whisper.mp4";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
   const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
@@ -65,6 +65,9 @@ function App() {
           </a>
           <a href="https://acasync.vercel.app/">
             <Work src={acasync} />
+          </a>
+          <a href="https://whisper-and-hush.vercel.app/">
+            <Work src={whisper} />
           </a>
         </div>
         <Footer />
