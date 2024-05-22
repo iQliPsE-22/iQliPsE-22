@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import PIC from "./Assets/pic2.png";
+import PIC from "./Assets/kkk.jpg";
 import Work from "./components/Work";
 import Header from "./components/Header";
 import TimeLine from "./components/TimeLine";
@@ -60,14 +60,14 @@ function App() {
             <em>Work</em>
           </h1>
           {/* <LeetCode /> */}
-          <a href="https://rizzquiz.vercel.app/">
-            <Work src={rizzquiz} />
-          </a>
           <a href="https://acasync.vercel.app/">
             <Work src={acasync} />
           </a>
           <a href="https://whisper-and-hush.vercel.app/">
             <Work src={whisper} />
+          </a>
+          <a href="https://rizzquiz.vercel.app/">
+            <Work src={rizzquiz} />
           </a>
         </div>
         <Footer />
