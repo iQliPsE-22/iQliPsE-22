@@ -7,7 +7,10 @@
 ###
 
 <div align="center">
-    <iframe src="https://www.iqlipse.studio/" width="100%" height="600px"></iframe>
+  <i>Visit my portfolio</i>
+  <a href = "https://www.iqlipse.studio/>
+    ![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/a327c7a6-b6f6-4a94-9e0d-d6a5c1a7d4b9)
+    </a>
 </div>
 
 ###
