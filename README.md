@@ -5,12 +5,7 @@
 </div>
 
 ###
-
-<div align="center">
-  <i>Visit my portfolio</i>
-    ![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/a327c7a6-b6f6-4a94-9e0d-d6a5c1a7d4b9)
-</div>
-
+![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/9de9067c-68cb-4b75-9d36-5d999531c678)
 ###
 
 <div align="left">
