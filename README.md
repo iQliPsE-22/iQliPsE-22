@@ -5,10 +5,14 @@
 </div>
 
 ###
+
+<i>
 <a href = "https://www.iqlipse.studio/>
-<i>Visit my Portfolio</i>
+  Visit my Portfolio
 </a>
+</i>
 ![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/9de9067c-68cb-4b75-9d36-5d999531c678)
+
 ###
 
 <div align="left">
