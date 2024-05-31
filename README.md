@@ -11,7 +11,7 @@
   Visit my Portfolio
 </a>
 </i>
-![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/9de9067c-68cb-4b75-9d36-5d999531c678)
+![image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/79cb55bc-fcde-48a8-92bf-2ac89890f33b)
 
 ###
 
