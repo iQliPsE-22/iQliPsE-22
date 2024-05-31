@@ -12,7 +12,13 @@ import acasync from "./Assets/acasync.png";
 import whisper from "./Assets/whisper.mp4";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
-  const [txt, setTxt] = useState(["things", "webSites", "webApps", "ideas"]);
+  const [txt, setTxt] = useState([
+    "things",
+    "webSites",
+    "webApps",
+    "ideas",
+    "apps",
+  ]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -53,7 +59,7 @@ function App() {
           <TimeLine />
         </div>
         <Tech />
-        <div className="" id = "work-back">
+        <div className="" id="work-back">
           <h1 id="work">
             <Bubble top="200%" />
             <em>Work</em>

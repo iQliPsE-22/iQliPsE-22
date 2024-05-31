@@ -12,13 +12,13 @@ const TimeLine = () => {
         <div className="dots">
           <hr />
           <div className="dot" id="current"></div>
-          <h2>2025</h2>
+          <h2 style={{ padding: "10px", color: "white" }}>2025</h2>
           <img src={cgc} alt="graduation" />
           <div className="dot"></div>
-          <h2>2021</h2>
+          <h2 style={{ padding: "10px", color: "white" }}>2021</h2>
           <img src={hca} alt="graduation" />
           <div className="dot"></div>
-          <h2>Journey</h2>
+          <h2 style={{ padding: "10px", color: "white" }}>Journey</h2>
         </div>
       </div>
     </div>

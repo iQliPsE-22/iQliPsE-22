@@ -24,11 +24,11 @@
 .checkpoints h1 {
   background-color: #41c1ae;
   padding: 20px;
+  color: white;
 }
 
 .checkpoints h2 {
   z-index: 1;
-  background-color: rgb(255, 255, 255);
   padding: 2px;
   border-radius: 5px;
   font-style: kalam, cursive;

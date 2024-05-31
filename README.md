@@ -1,6 +1,5 @@
 <h2 align="left">Hi 👋! My name is Deepak Kumar and I'm a Full Stack Developer, from Bareilly,Uttar Pradesh</h2>
 
-
 <div align="center">
   <img src="https://profile-counter.glitch.me/iQliPsE-22/count.svg?"  />
 </div>
@@ -8,7 +7,7 @@
 ###
 
 <div align="center">
-  <img height="800" src="https://raw.githubusercontent.com/iQliPsE-22/iQliPsE-22/main/src/Assets/XjB8.gif"  />
+<iframe src = "https://www.iqlipse.studio/"></iframe>
 </div>
 
 ###

@@ -10,18 +10,10 @@
 
 body {
   overflow-x: hidden;
+  user-select: none;
 }
 body::-webkit-scrollbar {
   display: none;
-}
-::selection {
-  background-color: #93ff93;
-  color: #fff;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #41c1ae;
-  border-radius: 10px;
 }
 
 header {
@@ -275,7 +267,11 @@ a {
   height: 50px;
   filter: none !important;
 }
-
+#work {
+  background-color: #458fff;
+  padding: 20px;
+  text-align: center;
+}
 @media screen and (max-width: 920px) {
   header {
     display: none;
