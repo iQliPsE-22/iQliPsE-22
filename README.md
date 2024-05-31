@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-<iframe src = "https://www.iqlipse.studio/"></iframe>
+    <iframe src="https://www.iqlipse.studio/" width="100%" height="600px"></iframe>
 </div>
 
 ###
