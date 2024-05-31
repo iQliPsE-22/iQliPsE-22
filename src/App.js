@@ -53,10 +53,9 @@ function App() {
           <TimeLine />
         </div>
         <Tech />
-        <div className="checkpoints">
+        <div className="checkpoints" id = "work-back">
           <h1 id="work">
             <Bubble top="200%" />
-
             <em>Work</em>
           </h1>
           {/* <LeetCode /> */}
