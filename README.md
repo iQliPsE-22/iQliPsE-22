@@ -6,7 +6,7 @@
 
 ###
 
-<i>
+<i align = "center">
 <a href = "https://www.iqlipse.studio/">
   Visit my Portfolio
 </a>
