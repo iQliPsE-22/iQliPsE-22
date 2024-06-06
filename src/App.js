@@ -10,6 +10,7 @@ import { Tech } from "./components/Tech";
 import rizzquiz from "./Assets/rizzquiz.png";
 import acasync from "./Assets/acasync.png";
 import whisper from "./Assets/whisper.mp4";
+import Invoice from "./Assets/Levitation - Google Chrome 2024-06-05 18-16-44.mp4";
 function App() {
   const [txtIndex, setTxtIndex] = useState(0);
   const [txt, setTxt] = useState([
@@ -70,6 +71,9 @@ function App() {
           </a>
           <a href="https://whisper-and-hush.vercel.app/">
             <Work src={whisper} />
+          </a>
+          <a href="https://levitation-eight.vercel.app/">
+            <Work src={Invoice} />
           </a>
           <a href="https://rizzquiz.vercel.app/">
             <Work src={rizzquiz} />
