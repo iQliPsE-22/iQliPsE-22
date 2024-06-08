@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-    <a href="https://www.iqlipse.studio/" target="_blank"><h2>Visit my Portfolio</h2></a>
+    <h2><a href="https://www.iqlipse.studio/" target="_blank">My Porfolio</a></h2>
 </p>
 
 ![Profile Image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/79cb55bc-fcde-48a8-92bf-2ac89890f33b)
