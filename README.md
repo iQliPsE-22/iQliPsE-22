@@ -53,5 +53,3 @@
 </div>
 
 ---
-
-This README provides a clean and professional introduction to your profile with easy navigation and a visually appealing layout.
