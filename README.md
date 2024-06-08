@@ -1,5 +1,3 @@
-Sure! Here's a polished and visually appealing version of your personal introduction:
-
 ---
 
 <h2 align="left">Hi 👋! My name is Deepak Kumar and I'm a Full Stack Developer from Bareilly, Uttar Pradesh.</h2>
@@ -9,9 +7,8 @@ Sure! Here's a polished and visually appealing version of your personal introduc
 </div>
 
 <p align="center">
-  <i>
+  ## Porfolio
     <a href="https://www.iqlipse.studio/" target="_blank">Visit my Portfolio</a>
-  </i>
 </p>
 
 ![Profile Image](https://github.com/iQliPsE-22/iQliPsE-22/assets/91374730/79cb55bc-fcde-48a8-92bf-2ac89890f33b)
