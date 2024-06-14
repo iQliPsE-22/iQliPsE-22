@@ -33,7 +33,7 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=iQliPsE-22&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="Stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iQliPsE-22&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="Languages graph" />
-  [![GitHub Streak](https://streak-stats.demolab.com/?iQliPsE-22DenverCoder1)](https://git.io/streak-stats)
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=iQliPsE-22&theme=shadow-green" alt="GitHub Streak" /></a>
 </div>
 
 ### Connect with Me
