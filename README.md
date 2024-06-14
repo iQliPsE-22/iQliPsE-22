@@ -34,7 +34,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=iQliPsE-22&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="Stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iQliPsE-22&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="Languages graph" />
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=iQliPsE-22&theme=shadow-green" alt="GitHub Streak" /></a>
-  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=iQliPsE-22&theme=vue-dark&hide_border=true"/>
+  <img src = "https://github-readme-stats.vercel.app/api?username=iQliPsE-22&theme=vue-dark&show_icons=true&hide_border=true&count_private=true"/>
 </div>
 
 ### Connect with Me
