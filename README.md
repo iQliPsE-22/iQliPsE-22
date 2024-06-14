@@ -33,6 +33,7 @@
 <div align="center">    
   <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&theme=vue-dark&show_icons=true&hide_border=true"/>
   <br>
+  <img src = "https://github-readme-stats.vercel.app/api/wakatime?username=iQliPsE-22&theme=vue-dark&show_icons=true"/>
   <img src="https://streak-stats.demolab.com?user=iQliPsE-22&theme=shadow-green" alt="GitHub Streak" />
   <img src = "https://github-readme-stats.vercel.app/api?username=iQliPsE-22&theme=vue-dark&show_icons=true&hide_border=true&count_private=true"/>
 </div>
