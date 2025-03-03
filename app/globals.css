@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -6,19 +8,39 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000;
+  --foreground: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.name {
+  font-family: "Audiowide", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url("../public/name3.avif");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 2rem 4rem #9db4c2);
+  color: transparent;
+}
+.drop {
+  filter: drop-shadow(0 4rem 2rem #9db4c2);
+}
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
 }
