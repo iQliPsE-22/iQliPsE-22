@@ -7,7 +7,7 @@ import Particles from "./components/Particles";
 import Scroll from "./components/Scroll";
 import About from "./components/About";
 import Journey from "./components/Journey";
-
+import Tech from './components/Tech';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -52,8 +52,9 @@ export default function Home() {
         </div>
         <Scroll />
       </section>
-      <About scrollYProgress={scrollYProgress} />
+      <About />
       <Journey />
+      <Tech />
     </>
   );
 }

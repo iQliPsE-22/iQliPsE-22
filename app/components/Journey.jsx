@@ -55,34 +55,60 @@ const Journey = () => {
       color: "success",
     },
   ];
+
   return (
     <div
       ref={journeyRef}
-      className="quicksand min-h-dvh pt-8 pb-8 flex flex-col items-center relative"
+      className="quicksand min-h-dvh pt-4 pb-8 flex flex-col items-center relative"
     >
       <motion.h1
-        className="text-[30px] lg:text-[60px] text-center transition-all duration-300"
+        className="text-[40px] lg:text-[60px] text-center pb-4"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
         style={{ scale: scrollYProgress }}
       >
-        My Journey 🚀
+        From Zero to Full Stack 🚀
       </motion.h1>
-      <Timeline className="h-full w-full">
-        {events.map((event, index) => (
-          <TimelineItem key={index}>
-            <TimelineOppositeContent className="text-sm lg:text-md bg-clip-text text-transparent bg-gradient-to-r from-[#e7f1f3] to-[#477696]">
-              {event.description}
-            </TimelineOppositeContent>
-            <TimelineSeparator className="h-auto lg:h-32">
-              <TimelineDot color={event.color}>{event.icon}</TimelineDot>
-              {index !== events.length - 1 && <TimelineConnector />}
-            </TimelineSeparator>
-            <TimelineContent className="bg-clip-text text-transparent bg-gradient-to-r from-[#e7f1f3] to-[#477696]">
-              <h3 className="text-lg lg:text-xl text-white">{event.year}</h3>
-              <p className="text-md lg:text-lg">{event.title}</p>
-            </TimelineContent>
-          </TimelineItem>
-        ))}
-      </Timeline>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={{
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0, transition: { staggerChildren: 0.3 } },
+        }}
+        className="w-full"
+      >
+        <Timeline>
+          {events.map((event, index) => (
+            <motion.div
+              key={index}
+              variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            >
+              <TimelineItem>
+                <TimelineOppositeContent className="text-sm lg:text-md bg-clip-text text-transparent bg-gradient-to-r from-[#e7f1f3] to-[#477696]">
+                  {event.description}
+                </TimelineOppositeContent>
+                <TimelineSeparator className="h-auto lg:h-32">
+                  <TimelineDot color={event.color}>{event.icon}</TimelineDot>
+                  {index !== events.length - 1 && <TimelineConnector />}
+                </TimelineSeparator>
+                <TimelineContent className="bg-clip-text text-transparent bg-gradient-to-r from-[#e7f1f3] to-[#477696]">
+                  <h3 className="text-lg lg:text-xl text-white">
+                    {event.year}
+                  </h3>
+                  <p className="text-md lg:text-lg ">{event.title}</p>
+                </TimelineContent>
+              </TimelineItem>
+            </motion.div>
+          ))}
+        </Timeline>
+      </motion.div>
     </div>
   );
 };
