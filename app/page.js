@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaGithub, FaFileArrowDown } from "react-icons/fa6";
 import Particles from "./components/Particles";
 import Scroll from "./components/Scroll";
 import About from "./components/About";
-import Journey from './components/Journey';
+import Journey from "./components/Journey";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
         <Scroll />
       </section>
-      <About scrollYProgress={scrollYProgress} /> 
-      <Journey/>
+      <About scrollYProgress={scrollYProgress} />
+      <Journey />
     </>
   );
 }
