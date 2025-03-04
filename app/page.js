@@ -8,6 +8,7 @@ import Scroll from "./components/Scroll";
 import About from "./components/About";
 import Journey from "./components/Journey";
 
+
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
