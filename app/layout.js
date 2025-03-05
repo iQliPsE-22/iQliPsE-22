@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Audiowide, Quicksand } from "next/font/google";
+import Cursor from "./components/Cursor";
 
 const audiowide = Audiowide({
   variable: "--font-audiowide",
@@ -32,8 +33,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${audiowide.variable} ${quicksand.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${audiowide.variable} ${quicksand.variable} antialiased `}
       >
+        <Cursor />
         {children}
       </body>
     </html>

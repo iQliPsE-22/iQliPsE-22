@@ -8,6 +8,7 @@ import Scroll from "./components/Scroll";
 import About from "./components/About";
 import Journey from "./components/Journey";
 import Tech from './components/Tech';
+import Projects from './components/Projects';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -55,6 +56,7 @@ export default function Home() {
       <About />
       <Journey />
       <Tech />
+      <Projects />
     </>
   );
 }

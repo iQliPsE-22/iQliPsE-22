@@ -21,7 +21,6 @@ import {
   SiNpm,
   SiChartdotjs,
 } from "react-icons/si";
-import CPP from "../../public/cpp3-svgrepo-com.svg";
 
 const skills = {
   languages: [
@@ -33,7 +32,7 @@ const skills = {
       name: "C++",
       icon: (
         <Image
-          src={CPP}
+          src= "/cpp3-svgrepo-com.svg"
           alt="C++"
           width={48}
           height={48}
@@ -137,6 +136,8 @@ const Tech = () => {
         transition={{ duration: 0.5, ease: "easeOut" }} // Smooth transition
         viewport={{ once: true, amount: 0.2 }} // Trigger once when 20% is visible
         className="p-4 w-full flex flex-wrap justify-around gap-4"
+        style={{ scale: scrollYProgress }}
+
       >
         {Object.entries(skills).map(([category, items], index) => (
           <section key={index} className="flex flex-col items-center">

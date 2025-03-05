@@ -68,7 +68,7 @@ const Journey = () => {
         transition={{ duration: 0.8 }}
         style={{ scale: scrollYProgress }}
       >
-        From Zero to Full Stack 🚀
+        From Zero to Full Stack
       </motion.h1>
 
       <motion.div
@@ -79,6 +79,7 @@ const Journey = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0, transition: { staggerChildren: 0.3 } },
         }}
+        style={{ scale: scrollYProgress }}
         className="w-full"
       >
         <Timeline>
