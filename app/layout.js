@@ -3,6 +3,7 @@ import "./globals.css";
 import { Audiowide, Quicksand } from "next/font/google";
 import Cursor from "./components/Cursor";
 import SmoothScroll from "./components/SmoothScroll";
+import Footer from './components/Footer';
 
 const audiowide = Audiowide({
   variable: "--font-audiowide",
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
         <SmoothScroll>
           <Cursor />
           {children}
+          <Footer/>
         </SmoothScroll>
       </body>
     </html>
