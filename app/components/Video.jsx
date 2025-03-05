@@ -55,7 +55,6 @@ export default function Video({
           <img
             src={thumbnail || "/placeholder.svg"}
             alt={alt}
-            fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 400px"
           />

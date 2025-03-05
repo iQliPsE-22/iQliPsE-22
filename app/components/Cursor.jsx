@@ -33,7 +33,7 @@ const Cursor = () => {
 
     addHoverListeners("a, button", "hover");
     addHoverListeners("img", "image");
-    addHoverListeners("video", "video", "https://whisper-and-hush.vercel.app/");
+    addHoverListeners("video", "video", "View Project");
 
     return () => {
       document.querySelectorAll("a, button, img, video").forEach((el) => {
