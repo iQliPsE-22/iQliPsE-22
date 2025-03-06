@@ -45,8 +45,7 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-        <img alt="iQliPsE-22's GitHub Stats" src="https://awesome-github-stats.azurewebsites.net/user-stats/iQliPsE-22?cardType=octocat&theme=tokyonight&preferLogin=false&Background=0F0F0F&Text=F5EFFF&Title=A294F9" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&layout=compact&theme=tokyonight" alt=" Top Languages" />
+    ![iQliPsE-22's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
 </p>
 
 ---
