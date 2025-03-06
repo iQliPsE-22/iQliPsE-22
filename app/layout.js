@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
         <SmoothScroll>
           <Cursor />
           {children}
+          <SpeedInsights/>
           <Footer />
         </SmoothScroll>
       </body>
