@@ -46,8 +46,7 @@
 ## 📊 GitHub Stats
 ![iQliPsE-22's Stats](https://github-readme-stats.vercel.app/api?username=iQliPsE-22&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
 ![iQliPsE-22's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
-![iQliPsE-22's Streak](https://github-readme-streak-stats.herokuapp.com/?user=iQliPsE-22&theme=tokyonight&hide_border=true)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=iQliPsE-22&theme=tokyonight)](https://git.io/streak-stats)
 ---
 
 ## 🏆 Achievements
