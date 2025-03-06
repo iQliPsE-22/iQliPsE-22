@@ -4,6 +4,7 @@ import { Audiowide, Quicksand } from "next/font/google";
 import Cursor from "./components/Cursor";
 import SmoothScroll from "./components/SmoothScroll";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const audiowide = Audiowide({
   variable: "--font-audiowide",

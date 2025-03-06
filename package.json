@@ -15,6 +15,7 @@
     "@mui/material": "^6.4.6",
     "@mui/styled-engine-sc": "^6.4.6",
     "@studio-freight/lenis": "^1.0.42",
+    "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.4.9",
     "gsap": "^3.12.7",
     "next": "15.2.0",
