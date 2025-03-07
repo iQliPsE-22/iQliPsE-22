@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://iqlipse.tech
+
+# Sitemaps
+Sitemap: https://iqlipse.tech/sitemap.xml
