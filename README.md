@@ -20,17 +20,19 @@
 
 ## 🎯 About Me
 
-\`\`\`typescript
+<pre>
+  
 const deepak = {
   role: "Full Stack Developer",
-  specialties: ["React", "Next.js", "MERN Stack"],
+  specialities: ["React", "Next.js", "MERN Stack"],
   passion: "C++ & Data Structures",
   achievements: ["SIH Finalist", "Hackfest 2024 Finalist"],
   philosophy: "Code like poetry, poetry like code",
   currentProject: "CampusX - Student Platform",
   goal: "Crafting scalable products & seamless experiences"
-};
-\`\`\`
+  }
+</pre>
+
 
 ## 🛠️ Tech Stack
 
@@ -98,4 +100,3 @@ const deepak = {
 [![Profile views](https://komarev.com/ghpvc/?username=iQliPsE-22&color=6633ee&style=flat-square)](https://github.com/iQliPsE-22)
 
 </div>
-\`\`\`
