@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF4191&center=true&width=600&lines=Hey%2C+I'm+Deepak+Kumar+(iQlipse);Full+Stack+Developer+%7C+Open+Source+Enthusiast;C%2B%2B+Lover+%7C+Tech+Explorer+%7C+Poet" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6633EE&center=true&width=600&lines=Hey%2C+I'm+Deepak+Kumar+(iQlipse);Full+Stack+Developer+%7C+Open+Source+Enthusiast;C%2B%2B+Lover+%7C+Tech+Explorer+%7C+Poet" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/Portfolio-iQlipse%20Studio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
     </a>
     <a href="https://drive.google.com/file/d/1wsRYh9k6rZ3vcrGOm19NEFIii2r0sFbF/view?usp=sharing" target="_blank">
-        <img src="https://img.shields.io/badge/Resume-View%20CV-FF4191?style=for-the-badge&logo=read-the-docs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Resume-View%20CV-6633EE?style=for-the-badge&logo=read-the-docs&logoColor=white" />
     </a>
     <a href="https://www.linkedin.com/in/deepak2004" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" />
