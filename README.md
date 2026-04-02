@@ -63,8 +63,12 @@ Sole frontend owner of two B2B SaaS platforms from 0→1.
 ## GitHub Stats
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=iQliPsE-22&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6633EE&icon_color=6633EE&text_color=ffffff" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6633EE&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=iQliPsE-22&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6633EE&icon_color=6633EE&text_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iQliPsE-22&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6633EE&text_color=ffffff"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iQliPsE-22&theme=radical&hide_border=true&background=0D1117&stroke=6633EE&ring=6633EE&fire=6633EE&currStreakLabel=ffffff"/>
 </div>
 
 ---
