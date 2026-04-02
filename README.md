@@ -26,13 +26,13 @@ Frontend engineer with ~1.5 years of experience building production AI SaaS prod
 
 ## Professional Experience
 
-### Witting AI  ·  Frontend Engineer (2024–2025)
+### Witting AI  ·  Frontend Engineer (2025–2026)
 
 Sole frontend owner of two B2B SaaS platforms from 0→1.
 
 **Datavox** — AI-powered analytics platform
-- Built real-time AI streaming interface with WebSocket-driven live data updates
-- Architected multi-tenant RBAC system supporting role-based dashboard access
+- Built a real-time AI streaming interface with WebSocket-driven live data updates
+- Architected a multi-tenant RBAC system supporting role-based dashboard access
 - Integrated 50+ backend APIs; owned the full component library end-to-end
 
 **Vocalis** — Voice AI platform
@@ -46,7 +46,7 @@ Sole frontend owner of two B2B SaaS platforms from 0→1.
 
 | Project | Description | Stack |
 |---|---|---|
-| [aichatseo.com](https://aichatseo.com) | Freemium AI SEO SaaS — Striking Distance Finder, Anomaly Detection, Google Search Console integration | Next.js, TypeScript, Tailwind, Node.js |
+| [aichatseo.com](https://aichatseo.com) | Freemium AI SEO SaaS, Striking Distance Finder, Anomaly Detection, Google Search Console integration | Next.js, TypeScript, Tailwind, Node.js |
 | Ghost Job Filter | Chrome extension that detects and filters ghost job listings on LinkedIn | JavaScript, Chrome Extensions API |
 | Flickd | React Native AI clipart generator app | React Native, Expo, TypeScript |
 
