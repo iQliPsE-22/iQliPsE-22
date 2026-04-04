@@ -4,7 +4,7 @@
 ### Frontend Engineer  ·  React / Next.js / TypeScript
 
 <p>
-  <a href="https://deepak-kumar.space/"><img src="https://img.shields.io/badge/Portfolio-deepak-kumar.space-6633EE?style=flat-square&logoColor=white" /></a>
+  <a href="https://deepak-kumar.space/"><img src="https://img.shields.io/badge/Portfolio-deepak-6633EE?style=flat-square&logoColor=white" /></a>
   <a href="https://drive.google.com/file/d/1wsRYh9k6rZ3vcrGOm19NEFIii2r0sFbF/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-View%20PDF-6633EE?style=flat-square&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/deepak2004"><img src="https://img.shields.io/badge/LinkedIn-deepak2004-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:deepaklg02@gmail.com"><img src="https://img.shields.io/badge/Email-deepaklg02@gmail.com-6633EE?style=flat-square&logoColor=white" /></a>
